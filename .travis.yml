@@ -3,5 +3,5 @@ jdk:
  - oraclejdk8
 sudo: false
 script: 
--mvn clean verify
--mvn test
+- mvn clean verify
+- mvn test
